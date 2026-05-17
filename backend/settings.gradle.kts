@@ -11,7 +11,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "pph"
-
-include(":backend")
-include(":frontend")
+rootProject.name = "pph-backend"
