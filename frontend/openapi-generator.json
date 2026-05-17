@@ -1,0 +1,20 @@
+{
+    "generatorName": "typescript-angular",
+    "inputSpec": "http://localhost:8080/api/v1/openapi.json",
+    "outputDir": "src/app/core/api",
+    "additionalProperties": {
+        "ngVersion": "19",
+        "supportsES6": true,
+        "withSeparateModelsAndApi": true,
+        "enumPropertyNaming": "SCREAMING_SNAKE_CASE",
+        "npmName": "@pph/api-client",
+        "fileNaming": "kebab-case",
+        "modelSuffix": "Dto",
+        "apiSuffix": "ApiService"
+    },
+    "globalProperty": {
+        "models": "",
+        "apis": "",
+        "supportingFiles": "ApiModule,configuration,index"
+    }
+}

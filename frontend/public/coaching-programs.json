@@ -1,0 +1,98 @@
+{
+    "categories": [
+        {
+            "id": "sports",
+            "label": "Sports Coaching",
+            "icon": "⚽",
+            "description": "Professional sports training for children aged 4–16, led by certified coaches. Build fitness, discipline, and teamwork through structured weekly sessions.",
+            "programs": [
+                {
+                    "id": "football",
+                    "name": "Football",
+                    "icon": "⚽",
+                    "ageMin": 6,
+                    "ageMax": 16,
+                    "fee": 2500,
+                    "currency": "INR",
+                    "schedule": "Mon, Wed, Fri — 5:30 PM to 7:00 PM",
+                    "venue": "Society Ground (Gate 2)",
+                    "coach": "Coach Ramesh Kumar",
+                    "coachQualification": "AFC D-License, 10+ years experience",
+                    "description": "Develop football fundamentals including dribbling, passing, shooting, and tactical awareness. Batches are grouped by age for focused coaching.",
+                    "highlights": [
+                        "Certified AFC coach",
+                        "Batch strength capped at 20",
+                        "Quarterly tournaments within society"
+                    ],
+                    "maxStrength": 20,
+                    "duration": "3 months",
+                    "startDate": "2026-06-01",
+                    "registrationDeadline": "2026-05-25",
+                    "equipment": "Comfortable sportswear, football boots or running shoes"
+                },
+                {
+                    "id": "karate",
+                    "name": "Karate",
+                    "icon": "🥋",
+                    "ageMin": 5,
+                    "ageMax": 15,
+                    "fee": 2000,
+                    "currency": "INR",
+                    "schedule": "Tue, Thu, Sat — 6:00 PM to 7:00 PM",
+                    "venue": "Community Hall — Ground Floor",
+                    "coach": "Sensei Anita Sharma",
+                    "coachQualification": "3rd Dan Black Belt, JKA Certified",
+                    "description": "Traditional Shotokan Karate training focusing on self-discipline, respect, and self-defence. Students progress through belt grades with regular assessments.",
+                    "highlights": [
+                        "Belt grading every 3 months",
+                        "Builds focus and discipline",
+                        "No prior experience required"
+                    ],
+                    "maxStrength": 15,
+                    "duration": "3 months",
+                    "startDate": "2026-06-01",
+                    "registrationDeadline": "2026-05-25",
+                    "equipment": "Karate uniform (gi) — available for purchase at ₹600 extra"
+                },
+                {
+                    "id": "swimming",
+                    "name": "Swimming",
+                    "icon": "🏊",
+                    "ageMin": 4,
+                    "ageMax": 16,
+                    "fee": 3000,
+                    "currency": "INR",
+                    "schedule": "Daily — 7:00 AM to 8:00 AM",
+                    "venue": "Society Swimming Pool (Tower A)",
+                    "coach": "Coach Priya Nair",
+                    "coachQualification": "SAI Certified Swimming Coach, Red Cross Lifeguard",
+                    "description": "Structured beginner-to-advanced batches covering freestyle, breaststroke, backstroke, and butterfly. Safety-first approach with lifeguard on duty at all times.",
+                    "highlights": [
+                        "Lifeguard certified coach",
+                        "Batches by skill level",
+                        "Includes water safety training"
+                    ],
+                    "maxStrength": 10,
+                    "duration": "3 months",
+                    "startDate": "2026-06-01",
+                    "registrationDeadline": "2026-05-25",
+                    "equipment": "Swimsuit, swim cap, and goggles mandatory"
+                }
+            ]
+        },
+        {
+            "id": "cultural",
+            "label": "Cultural Programs",
+            "icon": "🎭",
+            "description": "Nurture your child's creativity and cultural awareness through performing arts, music, and dance. Programs designed to build confidence and self-expression.",
+            "programs": []
+        },
+        {
+            "id": "others",
+            "label": "Other Activities",
+            "icon": "🎯",
+            "description": "Additional enrichment programs for holistic development — from academic support to hobby workshops. More programs coming soon.",
+            "programs": []
+        }
+    ]
+}
